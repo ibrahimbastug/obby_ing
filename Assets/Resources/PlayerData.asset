@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d9e7744f5c834408a1c454a0425cd5, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  playerPosition: {x: 0.88208836, y: 38.769985, z: 0}
+  meyveSayisi: 0
+  dogru_sayisi: 0
+  yanlis_sayisi: 0
+  is_saved: 1
+  toplanan_nesne: []
+  cevaplanan_soru: 
