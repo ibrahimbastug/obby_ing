@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8190902096132825169}
   - component: {fileID: 5295799858669188565}
   - component: {fileID: 8070204781565098171}
-  - component: {fileID: 2831489804981526247}
+  - component: {fileID: 4731621095998321869}
   m_Layer: 0
-  m_Name: Cylinder (6)
+  m_Name: sikke
   m_TagString: toplanacak
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4416383047500518902}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -143.13, y: -0.06, z: -51.4}
-  m_LocalScale: {x: 3, y: 0.1, z: 3}
+  m_LocalScale: {x: 2, y: 0.15, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &5295799858669188565
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d2fde70b04259944a839dbee4734c227, type: 2}
+  - {fileID: 2100000, guid: 828b6ac245c39d0478e211d4338bbb6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2831489804981526247
-BoxCollider:
+--- !u!136 &4731621095998321869
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,6 +102,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.0000002, y: 2, z: 1.0000002}
-  m_Center: {x: 0.00000005960465, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Radius: 0.7
+  m_Height: 2.0000005
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940699}

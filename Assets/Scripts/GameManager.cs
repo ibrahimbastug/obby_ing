@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 	
     void Start(){
 		
-       meyve_say.text = "Toplanan : " + playerData.meyveSayisi;
+       meyve_say.text = "Skor : " + playerData.skor;
        dogru_Say.text = "Doğru : " + playerData.dogru_sayisi;
        yanlis_Say.text = "Yanlış : " + playerData.yanlis_sayisi;
 
