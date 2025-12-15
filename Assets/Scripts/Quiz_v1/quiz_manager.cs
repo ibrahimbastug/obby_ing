@@ -19,14 +19,20 @@ public class quiz_manager : MonoBehaviour
     public Text Yanlis_Say;
 
     public PlayerData playerData; // 🔹 geri dönmek için
+    public CSVQuestionLoader csvLoader;
 
     void Start()
     {
         GoPanel.SetActive(false);
         QuizPanel.SetActive(true);
-        soru_uret();
+
+        if (csvLoader != null)
+            S_C = csvLoader.LoadQuestions();
+
         toplam_soru = S_C.Count;
+        soru_uret();
     }
+
 
     void Update()
     {

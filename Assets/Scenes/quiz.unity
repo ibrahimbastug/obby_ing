@@ -970,77 +970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a8053c398a5434cab7b93d07b902a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  S_C:
-  - Question: "Joyful kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Excited '
-    - 'Sad '
-    - Happy
-    - Creepy
-    CorrectAnswer: 1
-  - Question: "Gather  kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Collect '
-    - 'Spread '
-    - Divide
-    - Divorce
-    CorrectAnswer: 1
-  - Question: "Diverse kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Unique '
-    - 'Different '
-    - Similar
-    - Dimension
-    CorrectAnswer: 2
-  - Question: "Prevent kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Allow '
-    - 'Dissolve '
-    - Continue
-    - Stop
-    CorrectAnswer: 4
-  - Question: "Diligent kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Lazy '
-    - 'Hardworking '
-    - Indifferent
-    - Hungry
-    CorrectAnswer: 2
-  - Question: "Ancient kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Modern '
-    - 'Old '
-    - New
-    - Extreme
-    CorrectAnswer: 2
-  - Question: "Vast kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Tiny '
-    - 'Large '
-    - Huge
-    - Timid
-    CorrectAnswer: 2
-  - Question: "Praise kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - Blame
-    - Strip
-    - 'Compliment '
-    - 'Criticize '
-    CorrectAnswer: 3
-  - Question: "Brave kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Fearless '
-    - Shy
-    - Sad
-    - 'Cowardly '
-    CorrectAnswer: 1
-  - Question: "Beneath kelimesini e\u015Fanlaml\u0131s\u0131yla e\u015Fle\u015Ftirin."
-    Answers:
-    - 'Above '
-    - Sad
-    - Over
-    - Under
-    CorrectAnswer: 4
+  S_C: []
   options:
   - {fileID: 159418054}
   - {fileID: 1841008094}
@@ -1055,6 +985,7 @@ MonoBehaviour:
   Dogru_Say: {fileID: 372190045}
   Yanlis_Say: {fileID: 419400189}
   playerData: {fileID: 11400000, guid: 5cf43e5baa585a94695840494fd25cbc, type: 2}
+  csvLoader: {fileID: 1590482650}
 --- !u!4 &1161526270
 Transform:
   m_ObjectHideFlags: 0
@@ -1265,6 +1196,51 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1590482649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590482651}
+  - component: {fileID: 1590482650}
+  m_Layer: 0
+  m_Name: CSVLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1590482650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590482649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93a0ab26de21234c81d1d82b2edb6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: sorular.csv
+--- !u!4 &1590482651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590482649}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1916,3 +1892,4 @@ SceneRoots:
   - {fileID: 718946714}
   - {fileID: 1565827738}
   - {fileID: 1161526270}
+  - {fileID: 1590482651}
