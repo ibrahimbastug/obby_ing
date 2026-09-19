@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ddeace37ee5e74dab80473cf1411b8, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  playerPosition: {x: 0, y: 0, z: 0}
+  playerPosition: {x: -4, y: 4, z: 0}
   skor: 0
   rand1: 0
-  dogru_sayisi: 2
+  dogru_sayisi: 0
   yanlis_sayisi: 0
   level: 
   is_saved: 0

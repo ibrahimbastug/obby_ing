@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -984,7 +985,7 @@ MonoBehaviour:
   QuestionText: {fileID: 1662052855}
   Dogru_Say: {fileID: 372190045}
   Yanlis_Say: {fileID: 419400189}
-  playerData: {fileID: 11400000, guid: 5cf43e5baa585a94695840494fd25cbc, type: 2}
+  playerData: {fileID: 11400000, guid: 902c1dcde421b3645a87b4f4771958f5, type: 2}
   csvLoader: {fileID: 1590482650}
 --- !u!4 &1161526270
 Transform:
